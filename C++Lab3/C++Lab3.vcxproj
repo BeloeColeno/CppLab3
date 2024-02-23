@@ -127,13 +127,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AscendingIndexingSort.cpp" />
     <ClCompile Include="Bubble.cpp" />
+    <ClCompile Include="CustomSort.cpp" />
+    <ClCompile Include="DescendingIndexingSort.cpp" />
     <ClCompile Include="MiniMax.cpp" />
+    <ClCompile Include="QuickSort.cpp" />
+    <ClCompile Include="Show.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AscendingIndexingSort.h" />
     <ClInclude Include="Bubble.h" />
+    <ClInclude Include="CustomSort.h" />
+    <ClInclude Include="DescendingIndexingSort.h" />
     <ClInclude Include="MiniMax.h" />
+    <ClInclude Include="QuickSort.h" />
+    <ClInclude Include="Show.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
